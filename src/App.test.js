@@ -1,8 +1,9 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('Search App', () => {
+test('Renders without crashing', () => {
   render(<App />);
-  const linkElement = screen.getAllByText(/Search App/i);
+  const linkElement = screen.getByText(/Search App/i);
   expect(linkElement).toBeInTheDocument();
 });
+

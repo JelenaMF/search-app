@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Form,
     FormGroup,
     FormControl,
@@ -12,7 +11,6 @@ const SearchForm = () => (
     <FormGroup controlId="formInlineEmail">
         <FormControl type="search" placeholder="enter something..." />
     </FormGroup>
-    {' '}
     <Button type="submit">
         search
     </Button>

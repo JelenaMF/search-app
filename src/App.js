@@ -8,9 +8,9 @@ function App() {
       <Jumbotron>
         <Container>
           <h1>Search App</h1>
-          <p>This is a simple Search App</p>
+          <p>This is a simple search app</p>
 
-          <SearchForm />
+        <SearchForm />
         </Container>
       </Jumbotron>
       <Results />
